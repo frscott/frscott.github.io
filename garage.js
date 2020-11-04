@@ -60,7 +60,7 @@ if (overCircle(windowWidth/2, windowHeight/5, 100)==true) {
 // ellipse(windowWidth/2, windowHeight/2, 200, 200);
 // image(AA, windowWidth/2.57, windowHeight/2.55, 200, 200);
 
-Garage Door
+//Garage Door
     rectMode(CENTER);
     fill(255);
     stroke(0);
