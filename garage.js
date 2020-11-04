@@ -12,7 +12,7 @@ let y4;
 let y5;
 let y6;
 let gilpatrickLogo;
-let AA;
+//let AA;
 
 
 
@@ -25,7 +25,7 @@ function setup() {
     y5 = windowHeight*.3;
     y6 = windowHeight*.15;
     gilpatrickLogo = loadImage('thegilpatricklogo.png');
-    AA = loadImage('AA.png');
+    //AA = loadImage('AA.png');
   }
 
   function draw() {
@@ -53,7 +53,8 @@ if (overCircle(windowWidth/2, windowHeight/5, 100)==true) {
 // The Gilpatrick Logo
     noStroke();
     ellipse(windowWidth/2, windowHeight/5, 200, 200);
-    image(gilpatrickLogo, windowWidth/2.52, windowHeight/10.5);
+    imageMode(CENTER);
+    image(gilpatrickLogo, windowWidth/2, windowHeight/5, 200, 200);
 
 // Data Visualizations
 // noStroke();
