@@ -60,16 +60,16 @@ if (overCircle(windowWidth/2, windowHeight/5, 100)==true) {
 // ellipse(windowWidth/2, windowHeight/2, 200, 200);
 // image(AA, windowWidth/2.57, windowHeight/2.55, 200, 200);
 
-//Garage Door
-    // rectMode(CENTER);
-    // fill(255);
-    // stroke(0);
-    // rect(windowWidth/2, y1, windowWidth/1.09, windowHeight/6);
-    // rect(windowWidth/2, y2, windowWidth/1.09, windowHeight/6);
-    // rect(windowWidth/2, y3, windowWidth/1.09, windowHeight/6);
-    // rect(windowWidth/2, y4, windowWidth/1.09, windowHeight/6);
-    // rect(windowWidth/2, y5, windowWidth/1.09, windowHeight/6);
-    // rect(windowWidth/2, y6, windowWidth/1.09, windowHeight/6);
+Garage Door
+    rectMode(CENTER);
+    fill(255);
+    stroke(0);
+    rect(windowWidth/2, y1, windowWidth/1.09, windowHeight/6);
+    rect(windowWidth/2, y2, windowWidth/1.09, windowHeight/6);
+    rect(windowWidth/2, y3, windowWidth/1.09, windowHeight/6);
+    rect(windowWidth/2, y4, windowWidth/1.09, windowHeight/6);
+    rect(windowWidth/2, y5, windowWidth/1.09, windowHeight/6);
+    rect(windowWidth/2, y6, windowWidth/1.09, windowHeight/6);
 
   //Animation
     y1 = y1 - 1;
